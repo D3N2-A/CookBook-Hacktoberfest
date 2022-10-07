@@ -20,7 +20,27 @@ By the end of this guide you will also integrate various plugins into powershell
 - z - Directory jumper
 - PSFzf - Fuzzy finder
 
-**Step 1**
-First you have to install latest windows terminal from microsoft store (if not installed already)
+**STEP 1**
+First you have to install latest windows terminal and powershell from microsoft store (if not installed already)
 The head to settings tab and your settings should look like this :
 ![settings](https://raw.githubusercontent.com/D3N2-A/CookBook-Hacktoberfest/main/Powershell/img/settings.png)
+
+**STEP 2**
+Install Scoop
+
+```
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+> irm get.scoop.sh | iex
+```
+
+**STEP 3**
+Install oh-my-posh
+
+```
+
+>winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+Now Install nerd fonts from
+https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.2.2
+I personally use _DroidSansMono_
